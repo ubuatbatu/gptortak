@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Mira OS</title>
-    <style>
-      body {
-        margin: 0;
-        font-family: sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #f0f0f0;
-        flex-direction: column;
-      }
-      h1 { font-size: 2em; margin-bottom: 0.5em; }
-    </style>
-  </head>
-  <body>
-    <h1>Mira OS'e hoş geldiniz</h1>
-    <p>Dosya sistemi yapısı hazırlandı. Uygulamayı geliştirmeye başlayabilirsiniz.</p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Mira OS</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div id="desktop"></div>
+  <div id="taskbar">
+    <button id="start-button">Başlat</button>
+    <div id="taskbar-apps"></div>
+    <div id="start-menu"></div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
 </html>
