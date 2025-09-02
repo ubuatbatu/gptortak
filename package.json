@@ -1,0 +1,12 @@
+{
+  "name": "mira-os",
+  "version": "0.1.0",
+  "description": "Mira OS virtual file system and desktop environment",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^29.0.0"
+  }
+}
